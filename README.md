@@ -11,6 +11,10 @@
 - 2019/12/05 [Raspberry Pi Hardware Accelerated RTSP Camera](https://codecalamity.com/raspberry-pi-hardware-accelerated-h264-webcam-security-camera/)
 
 
+### History (Korean)
+- 2019/09/06 [GStreamer: RTSP Server 구축(gst-rtsp-server)](https://argc.tistory.com/346)
+
+
 ### Information
 - libs.garden: [Go/RTSP](https://libs.garden/go/rtsp)
 - [Real Time Streaming Protocol 2.0 (RTSP)](https://tools.ietf.org/id/draft-ietf-mmusic-rfc2326bis-33.html)
