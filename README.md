@@ -54,7 +54,7 @@
 - [iizukanao/node-rtsp-rtmp-server](https://github.com/iizukanao/node-rtsp-rtmp-server) - RTSP/RTMP/HTTP hybrid server
 - [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
 - [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
-- [neilyoung/receipt5.md](https://gist.github.com/neilyoung/8216c6cf0c7b69e25a152fde1c022a5d)
+- [neilyoung/receipt5.md](https://gist.github.com/neilyoung/8216c6cf0c7b69e25a152fde1c022a5d) - How to make a Raspberry Pi an RTSP streamer
 
 
 
