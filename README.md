@@ -55,8 +55,8 @@
 - [florian-asche/RaspberryPiStreamingCamera](https://github.com/florian-asche/RaspberryPiStreamingCamera) - RaspberryPi RTSP Streaming Camera
 - [**mpromonet/v4l2rtspserver**](https://github.com/mpromonet/v4l2rtspserver) - RTSP Server for V4L2 device capture supporting HEVC/H264/JPEG/VP8/VP9
 - [iizukanao/node-rtsp-rtmp-server](https://github.com/iizukanao/node-rtsp-rtmp-server) - RTSP/RTMP/HTTP hybrid server
-- [thaytan/gst-rpicamsrc](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
-- [GStreamer/gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
+- [**thaytan/gst-rpicamsrc**](https://github.com/thaytan/gst-rpicamsrc) - GStreamer element for the Raspberry Pi camera module
+- [**GStreamer/gst-rtsp-server**](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
 - [neilyoung/receipt5.md](https://gist.github.com/neilyoung/8216c6cf0c7b69e25a152fde1c022a5d) - How to make a Raspberry Pi an RTSP streamer
 
 
