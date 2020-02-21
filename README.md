@@ -14,7 +14,7 @@
 
 ### History (Korean)
 - 2019/09/06 [GStreamer: RTSP Server 구축(gst-rtsp-server)](https://argc.tistory.com/346)
-- 2018/10/18 [Raspberry Pi 3: RTSP Server 설정(https://imsoftpro.tistory.com/53)
+- 2018/10/18 [Raspberry Pi 3: RTSP Server 설정](https://imsoftpro.tistory.com/53)
 - 2014/07/27 [GStreamer RTSP with RPi](https://aery.tistory.com/entry/GStreamer-RTSP-with-RPi)
 
 ### Information
