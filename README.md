@@ -3,6 +3,7 @@
 
 ### History
 - 2019/12/09 [How to cook RTSP on your website in 2020, or why the boars will not have a chance to run away](https://habr.com/en/company/flashphoner/blog/479008/)
+- 2019/07/25 [gstreamer and rtsp server with raspivid](https://www.raspberrypi.org/forums/viewtopic.php?t=246815)
 - 2019/07/24 [Connect Raspberry Pi to IP Cameras – All You Need to Know](https://reolink.com/connect-raspberry-pi-to-ip-cameras/)
 - 2019/04/15 [Live video streaming over network with OpenCV and ImageZMQ](https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/)
 - 2019/02/16 [Cameradar hacks its way into RTSP videosurveillance cameras](https://golangexample.com/cameradar-hacks-its-way-into-rtsp-videosurveillance-cameras/)
@@ -21,6 +22,7 @@
 - libs.garden: [Go/RTSP](https://libs.garden/go/rtsp)
 - [Real Time Streaming Protocol 2.0 (RTSP)](https://tools.ietf.org/id/draft-ietf-mmusic-rfc2326bis-33.html)
 - [Raspberry Pi/Camera streaming](https://wiki.marcluerssen.de/index.php?title=Raspberry_Pi/Camera_streaming)
+- [Raspberry PI RTSP Guide](https://www.stev.org/post/raspberrypisimplertspserver)
 
 
 ### Stackoverflow
