@@ -9,6 +9,7 @@
 - 2018/11/01 [RTSP Video, Kafka, and Microservices](https://adaickalavan.github.io/portfolio/rtsp_video_streaming/)
 - 2018/01/14 [RTSP in HTML5 with low latency](https://linkingvision.com/rtsp_in_html5_with_low_latency)
 - 2019/12/05 [Raspberry Pi Hardware Accelerated RTSP Camera](https://codecalamity.com/raspberry-pi-hardware-accelerated-h264-webcam-security-camera/)
+- 2014/12/26 [Raspivid v Gst-rpicamsrc (Updated)](https://sparkyflight.wordpress.com/tag/gst-rpicamsrc/)
 
 
 ### History (Korean)
@@ -60,6 +61,7 @@
 
 ### Commands
 ```
-$ npm install git://github.com/Streamedian/html5_rtsp_player.git
+npm install git://github.com/Streamedian/html5_rtsp_player.git
+./test-launch --gst-debug=3 "( rpicamsrc bitrate=8000000 awb-mode=tungsten preview=false ! video/x-h264, width=640, height=480, framerate=30/1 ! h264parse ! rtph264pay name=pay0 pt=96 )"
 ```
 
