@@ -61,6 +61,14 @@
 - [**GStreamer/gst-rtsp-server**](https://github.com/GStreamer/gst-rtsp-server) - RTSP server based on GStreamer
 - [neilyoung/receipt5.md](https://gist.github.com/neilyoung/8216c6cf0c7b69e25a152fde1c022a5d) - How to make a Raspberry Pi an RTSP streamer
 - [umlaeute/v4l2loopback](https://github.com/umlaeute/v4l2loopback) - v4l2-loopback device
+- [umlaeute/gst-v4l2loopback](https://github.com/umlaeute/gst-v4l2loopback) - an obsolete gstreamer element that allows to write to a v4l2 loopback device
+- [Hermann-SW/raspiraw](https://github.com/Hermann-SW/raspiraw) - Example app directly receiving raw data from CSI2 sensors (ov5647 can do high frame rates up to 750fps)
+- [Hermann-SW/fork-raspiraw](https://github.com/Hermann-SW/fork-raspiraw) - raspiraw working fork for high framerate stuff (up to 750/1007 fps for v1/v2 camera
+- [Hermann-SW/Raspberry_camera_gallery](https://github.com/Hermann-SW/Raspberry_camera_gallery)
+- [Hermann-SW/Raspberry_v1_camera_global_external_shutter](https://github.com/Hermann-SW/Raspberry_v1_camera_global_external_shutter)
+
+
+
 
 
 ### Commands
