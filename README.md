@@ -76,7 +76,8 @@ cd gst-rtsp-server/examples
 raspivid -n -w 1280 -h 720 -b 4500000 -fps 30 -vf -hf -t 0 -o - | \
     cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:9000/}' :demux=h264
 raspivid -n -t 0 -fps 30 -w 800 -h 600 -o - | nc -u 192.168.248.128 1900
-
+raspivid -t 9999999 -w 960 -h 540 -fps 25 -b 500000 -o - | \
+    ffmpeg -i - -vcodec copy -an -metadata title="Streaming from raspberry pi" -f flv rtmp://192.168.0.1/live/web
 
 tcpflow port 8554
 ```
