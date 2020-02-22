@@ -73,6 +73,11 @@ cd gst-rtsp-server/examples
 ./test-launch "( rpicamsrc preview=false bitrate=2000000 keyframe-interval=15 ! \
     video/x-h264, framerate=15/1 ! h264parse ! rtph264pay name=pay0 pt=96 )"
 
+raspivid -n -w 1280 -h 720 -b 4500000 -fps 30 -vf -hf -t 0 -o - | \
+    cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:9000/}' :demux=h264
+raspivid -n -t 0 -fps 30 -w 800 -h 600 -o - | nc -u 192.168.248.128 1900
+
+
 tcpflow port 8554
 ```
 
