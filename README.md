@@ -65,6 +65,8 @@
 
 ### Commands
 ```
+tcpflow port 8554
+
 npm install git://github.com/Streamedian/html5_rtsp_player.git
 
 cd gst-rtsp-server/examples
@@ -79,6 +81,12 @@ raspivid -n -t 0 -fps 30 -w 800 -h 600 -o - | nc -u 192.168.248.128 1900
 raspivid -t 9999999 -w 960 -h 540 -fps 25 -b 500000 -o - | \
     ffmpeg -i - -vcodec copy -an -metadata title="Streaming from raspberry pi" -f flv rtmp://192.168.0.1/live/web
 
-tcpflow port 8554
+gst-launch-1.0 videotestsrc ! v4l2sink device=/dev/video4
+gst-launch-1.0 v4l2src device=/dev/video4 ! autovideosink
+gst-launch-1.0 -v tcpserversrc port=5000 \
+    ! gdpdepay ! rtph264depay ! decodebin \
+    ! v4l2sink device=/dev/video4
+gst-launch-1.0 -v videotestsrc \
+    ! x264enc ! rtph264pay ! gdppay \
+    ! tcpserversink port=5000
 ```
-
