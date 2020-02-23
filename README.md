@@ -2,6 +2,7 @@
 > CCTV, RTSP, RPi 3/4
 
 ### History
+- 2020/02/18 [Running GoLand on a Raspberry Pi 4](https://blog.jetbrains.com/go/2020/02/18/running-goland-on-a-raspberry-pi-4/)
 - 2019/12/09 [How to cook RTSP on your website in 2020, or why the boars will not have a chance to run away](https://habr.com/en/company/flashphoner/blog/479008/)
 - 2019/07/25 [gstreamer and rtsp server with raspivid](https://www.raspberrypi.org/forums/viewtopic.php?t=246815)
 - 2019/07/24 [Connect Raspberry Pi to IP Cameras – All You Need to Know](https://reolink.com/connect-raspberry-pi-to-ip-cameras/)
